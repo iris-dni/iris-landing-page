@@ -1,0 +1,8 @@
+---
+layout: howTo
+img: signature-graphic_letter.svg
+category: howTo
+title: Letter sent to council
+description: |
+---
+If your petition reaches the target for that city, we will start an official process by sending a letter to the relevant city council member.
