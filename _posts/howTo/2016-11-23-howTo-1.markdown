@@ -5,8 +5,4 @@ category: howTo
 title: Create your petition
 description: |
 ---
-- A platform to get the chance to be heard
-- Let your local cause get known
-- Follow your petition's development as it gathers support
-- If successful a letter will be sent to your local representative
-- Have a chance to get coverage by your local media outlet
+Anyone can create petition for their region, you do not need to be part of an organisation. All you need to do is have a valid mobile number to verify who you are.
