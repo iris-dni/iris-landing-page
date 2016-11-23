@@ -1,0 +1,15 @@
+---
+layout: default
+img: ipad.png
+category: Services
+title: Benefits for publisher
+description: |
+---
+- Discover local causes from your audience
+- Cover petitions as they develop and gain support
+- See which online sources are talking about a petition
+- User can embed petitions on their own site
+- Create a dialog between the petitioner, your readers and the relevant city council members
+- Petitions are localised by city for a focused audience
+- Use your existing user accounts via SSO sign in
+- Users are verified via SMS for accurate support counts
