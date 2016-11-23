@@ -1,7 +1,7 @@
 ---
 layout: default
 img: signature-graphic_page.svg
-category: Services
+category: benefits
 title: Benefits for Petitioners
 description: |
 ---

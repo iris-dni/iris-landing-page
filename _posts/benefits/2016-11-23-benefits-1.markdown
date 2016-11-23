@@ -1,7 +1,7 @@
 ---
 layout: default
 img: signature-graphic_writer.svg
-category: Services
+category: benefits
 title: Benefits for publisher
 description: |
 ---

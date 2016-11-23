@@ -1,0 +1,12 @@
+---
+layout: howTo
+img: signature-graphic_page.svg
+category: howTo
+title: Create your petition
+description: |
+---
+- A platform to get the chance to be heard
+- Let your local cause get known
+- Follow your petition's development as it gathers support
+- If successful a letter will be sent to your local representative
+- Have a chance to get coverage by your local media outlet
