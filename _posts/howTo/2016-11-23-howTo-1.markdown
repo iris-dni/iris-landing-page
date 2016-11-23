@@ -2,7 +2,7 @@
 layout: howTo
 img: signature-graphic_page.svg
 category: howTo
-title: Create your petition
+title: 1. Create your petition
 description: |
 ---
 Anyone can create petition for their region, you do not need to be part of an organisation. All you need to do is have a valid mobile number to verify who you are.
