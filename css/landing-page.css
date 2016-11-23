@@ -91,6 +91,11 @@ h6 {
   margin-bottom: 3em;
 }
 
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
 @media(max-width:767px) {
     .intro-message {
         padding-bottom: 15%;

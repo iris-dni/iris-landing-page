@@ -1,6 +1,6 @@
 ---
 layout: default
-img: ipad.png
+img: signature-graphic_writer.svg
 category: Services
 title: Benefits for publisher
 description: |
