@@ -1,10 +1,11 @@
-<svg  xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 width="300" height="300" viewBox="0 0 100 100" >
-<path fill="none" stroke="#1100C4" stroke-width="2" stroke-miterlimit="10" d="M31,16h56v58c0,0,0.367,10.351-6.75,10
-	c-7.116-0.35-43.375-0.125-43.375-0.125L19,84c0,0,12-18.125,12-25.25S31,16,31,16z"/>
-<rect x="36" y="21" fill="#1100C4" width="20" height="24"/>
-<rect x="35" y="50" fill="#1100C4" width="30" height="3"/>
-<rect x="35" y="57" fill="#1100C4" width="37" height="3"/>
-<rect x="35" y="63" fill="#1100C4" width="28" height="3"/>
-<rect x="35" y="70" fill="#1100C4" width="41" height="3"/>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="300" height="300" viewBox="0 0 300 300" >
+<path fill="none" stroke="#1100C4" stroke-width="8" stroke-miterlimit="10" d="M70.354,13h225.64v233.699
+	c0,0,1.479,41.707-27.197,40.293c-28.672-1.409-174.771-0.504-174.771-0.504l-72.023,0.504c0,0,48.352-73.03,48.352-101.739
+	S70.354,13,70.354,13z"/>
+<rect x="93.5" y="38.264" fill="#1100C4" width="77.056" height="92.468"/>
+<rect x="89.647" y="149.996" fill="#1100C4" width="115.585" height="11.559"/>
+<rect x="89.647" y="176.966" fill="#1100C4" width="142.555" height="11.559"/>
+<rect x="89.647" y="200.083" fill="#1100C4" width="107.88" height="11.559"/>
+<rect x="89.647" y="227.053" fill="#1100C4" width="157.966" height="11.559"/>
 </svg>
