@@ -1,0 +1,8 @@
+---
+layout: howTo
+img: signature-graphic_support.svg
+category: howTo
+title: Start your own platform
+description: |
+---
+If you want to start your own platform based on IRIS here is the [Documentation](https://github.com/iris-dni/iris-service)
