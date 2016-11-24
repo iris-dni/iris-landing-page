@@ -1,6 +1,6 @@
 ---
 layout: howTo
-img: signature-graphic_support.svg
+img: signature-graphic_platform.svg
 category: howTo
 title: Start your own platform
 description: |
