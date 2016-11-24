@@ -2,7 +2,7 @@
 layout: default
 img: signature-graphic_publisher.svg
 category: benefits
-title: Benefits for publisher
+title: Benefits for Publisher
 description: |
 ---
 - Discover local causes from your audience
