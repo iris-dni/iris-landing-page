@@ -26,5 +26,6 @@ permalink: pretty
 # ----------------------- #
 
 social:
-  - title: github
+  - title: GitHub
+    icon: github
     url: https://github.com/iris-dni
