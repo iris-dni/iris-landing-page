@@ -2,7 +2,7 @@
 layout: default
 img: signature-graphic_petitioners.svg
 category: benefits
-title: Benefits for Petitioners
+title: For Petitioners
 description: |
 ---
 - A platform to get the chance to be heard
