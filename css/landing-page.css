@@ -34,11 +34,17 @@ h6 {
 }
 
 .about-text {
+  padding: 60px;
   position: relative;
-  top: -50px;
-  background-color: #fff;
+  top: -100px;
+  background-color: #f8f8f8;
   border-top: 8px solid #2fcd0c;
-  margin-bottom: 5em;
+  text-align: center;
+}
+
+.about-text__title {
+  margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 .about-text > p {
