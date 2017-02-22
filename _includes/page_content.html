@@ -11,7 +11,7 @@
           <div class="benefit__content">{{ post.content }}</div>
         </div>
         <div class="col-lg-4 col-lg-offset-1 col-sm-4">
-          <img class="benefit__image" src="/img/services/{{ post.img }}">
+          <img class="benefit__image" src="img/services/{{ post.img }}">
         </div>
       </div>
     </div>
@@ -26,7 +26,7 @@
       {% for post in site.categories.howTo reversed %}
         <div class="col-lg-4 col-sm-12">
           <div class="howTo__image-wrap">
-            <img class="howTo__image" src="/img/services/{{ post.img }}">
+            <img class="howTo__image" src="img/services/{{ post.img }}">
           </div>
           <h3 class="howTo__title">{{ post.title }}</h2>
           <div class="howTo__content">{{ post.content }}</div>
@@ -40,7 +40,7 @@
       {% for post in site.categories.interact reversed %}
         <div class="col-lg-4 {% cycle 'col-lg-offset-2', '' %} col-sm-12">
           <div class="howTo__image-wrap">
-            <img class="howTo__image" src="/img/services/{{ post.img }}">
+            <img class="howTo__image" src="img/services/{{ post.img }}">
           </div>
           <h3 class="howTo__title">{{ post.title }}</h2>
           <div class="howTo__content">{{ post.content }}</div>
