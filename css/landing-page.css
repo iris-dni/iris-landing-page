@@ -33,6 +33,13 @@ h6 {
   border-bottom: 8px solid #2fcd0c;
 }
 
+.content-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
 .about-text {
   padding: 60px;
   position: relative;
@@ -54,6 +61,30 @@ h6 {
 .benefit__content {
   font-size: 18px;
   font-weight: 400;
+}
+
+.benefit__image {
+  width: 50%;
+}
+
+.howTo {
+  align-items: flex-start;
+  padding-bottom: 50px;
+}
+
+.howTo__headline {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.howTo__image-wrap {
+  text-align: center;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.howTo__image {
+  width: 100%;
 }
 
 .intro-header {
@@ -92,12 +123,6 @@ h6 {
 
 .intro-message > h3 {
   margin-bottom: 3em;
-}
-
-.content-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
 }
 
 #contact {
