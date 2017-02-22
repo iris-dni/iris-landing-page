@@ -1,0 +1,8 @@
+---
+layout: default
+img: signature-graphic_support.svg
+category: interact
+title: Supporting a petition
+description: |
+---
+If you find a cause in your area you want to support, click the support button in the sidebar of the petition page. Quickly fill in your details to receive a mobile SMS verification code confirming who you are, and then your support will be added!

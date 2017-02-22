@@ -1,11 +1,10 @@
 ---
 layout: default
-img: phones.png
-category: Benefits
+img: signature-graphic_petitioners.svg
+category: benefits
 title: For Petitioners
 description: |
 ---
-
 - A platform to get the chance to be heard
 - Let your local cause get known
 - Follow your petition's development as it gathers support

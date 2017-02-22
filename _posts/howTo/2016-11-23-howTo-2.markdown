@@ -1,0 +1,8 @@
+---
+layout: default
+img: signature-graphic_writer.svg
+category: howTo
+title: 2. Share and get support
+description: |
+---
+Once created, share the petition with other people to create awareness about your cause. Each petition runs for 30 days.

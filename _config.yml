@@ -3,15 +3,14 @@
 # ----------------------- #
 
 url: http://yoursite.com
-title: Iris
+title: IRIS
 email: javier.vazquez@azmedien.ch
-github: https://github.com/iris-dni
 author: Your Name
-description: > # "Write an awesome description for your new site here. 
-  You can edit this line in _config.yml. It will appear in your document 
-  head meta (for Google search results) and in your feed.xml site 
+description: > # "Write an awesome description for your new site here.
+  You can edit this line in _config.yml. It will appear in your document
+  head meta (for Google search results) and in your feed.xml site
   description.
-copyright: 'Copyright &copy; 2017 AZ Medien AG'
+copyright: 'Copyright &copy; 2017 AZ Medien AG. All Rights Reserved.'
 
 # ----------------------- #
 #    Jekyll & Plugins     #
@@ -27,5 +26,5 @@ permalink: pretty
 
 social:
   - title: GitHub
-    icon: github
+    logoKey: github
     url: https://github.com/iris-dni

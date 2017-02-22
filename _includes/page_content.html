@@ -1,10 +1,53 @@
-<section id="benefits" class="container content-section-a">
-  <div class="row">
-    {% for post in site.posts reversed %}
-      <div class="col-lg-8 col-lg-offset-2">
-        <h2 class="section-heading">{{ post.title }}</h2>
-        <div class="lead">{{ post.content }}</div>
+<section id="benefits">
+  {% for post in site.categories.benefits reversed %}
+  {% capture sectionType %}{% cycle 'a', 'b' %}{% endcapture %}
+  <div class="content-section-{{ sectionType }} benefit">
+    <div class="container">
+      <div class="row content-container">
+        <div class="col-lg-7 col-sm-8">
+          <hr class="section-heading-spacer">
+          <div class="clearfix"></div>
+          <h2 class="section-heading">{{ post.title }}</h2>
+          <div class="benefit__content">{{ post.content }}</div>
+        </div>
+        <div class="col-lg-4 col-lg-offset-1 col-sm-4">
+          <img class="benefit__image" src="/img/services/{{ post.img }}">
+        </div>
       </div>
-    {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+<section id="howTo">
+  <div class="container">
+    <h2 class="section-heading howTo__headline">How it works</h2>
+    <div class="row content-container howTo">
+      {% for post in site.categories.howTo reversed %}
+        <div class="col-lg-4 col-sm-12">
+          <div class="howTo__image-wrap">
+            <img class="howTo__image" src="/img/services/{{ post.img }}">
+          </div>
+          <h3 class="howTo__title">{{ post.title }}</h2>
+          <div class="howTo__content">{{ post.content }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row content-container howTo">
+      {% for post in site.categories.interact reversed %}
+        <div class="col-lg-4 {% cycle 'col-lg-offset-2', '' %} col-sm-12">
+          <div class="howTo__image-wrap">
+            <img class="howTo__image" src="/img/services/{{ post.img }}">
+          </div>
+          <h3 class="howTo__title">{{ post.title }}</h2>
+          <div class="howTo__content">{{ post.content }}</div>
+        </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
+
+
