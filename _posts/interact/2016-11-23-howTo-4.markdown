@@ -1,7 +1,7 @@
 ---
 layout: howTo
 img: signature-graphic_support.svg
-category: howTo
+category: interact
 title: Supporting a petition
 description: |
 ---

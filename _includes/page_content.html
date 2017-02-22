@@ -11,11 +11,43 @@
           <div class="benefit__content">{{ post.content }}</div>
         </div>
         <div class="col-lg-4 col-lg-offset-1 col-sm-4">
-          <img class="img-responsive" src="/img/services/{{ post.img }}"
-          width="200">
+          <img class="benefit__image" src="/img/services/{{ post.img }}">
         </div>
       </div>
     </div>
   </div>
   {% endfor %}
 </section>
+
+<section id="howTo">
+  <div class="container">
+    <h2 class="section-heading howTo__headline">How it works</h2>
+    <div class="row content-container howTo">
+      {% for post in site.categories.howTo reversed %}
+        <div class="col-lg-4 col-sm-12">
+          <div class="howTo__image-wrap">
+            <img class="howTo__image" src="/img/services/{{ post.img }}">
+          </div>
+          <h3 class="howTo__title">{{ post.title }}</h2>
+          <div class="howTo__content">{{ post.content }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row content-container howTo">
+      {% for post in site.categories.interact reversed %}
+        <div class="col-lg-4 {% cycle 'col-lg-offset-2', '' %} col-sm-12">
+          <div class="howTo__image-wrap">
+            <img class="howTo__image" src="/img/services/{{ post.img }}">
+          </div>
+          <h3 class="howTo__title">{{ post.title }}</h2>
+          <div class="howTo__content">{{ post.content }}</div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+
