@@ -1,5 +1,5 @@
 ---
-layout: howTo
+layout: default
 img: signature-graphic_platform.svg
 category: interact
 title: Start your own platform

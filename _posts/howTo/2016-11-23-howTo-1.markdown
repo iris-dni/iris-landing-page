@@ -1,5 +1,5 @@
 ---
-layout: howTo
+layout: default
 img: signature-graphic_page.svg
 category: howTo
 title: 1. Create your petition
