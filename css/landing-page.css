@@ -51,13 +51,9 @@ h6 {
   line-height: 1.5;
 }
 
-.lead {
-    font-size: 18px;
-    font-weight: 400;
-}
-
-.lead > ul > li {
-  margin-bottom: 0.8em;
+.benefit__content {
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .intro-header {
