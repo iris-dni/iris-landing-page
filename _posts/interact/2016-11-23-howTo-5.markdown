@@ -6,5 +6,5 @@ title: Start your own platform
 description: |
 ---
 If you want to start your own platform based on IRIS here is the [Documentation](https://github.com/iris-dni/iris-service).
-There is also an Implementation from AZ-Medien called [Petitio](https://petitio-dev.herokuapp.com/).
+There is also an Implementation from AZ-Medien called [Petitio](https://www.petitio.ch/).
 The whole project will be opensourced in 2017.  
