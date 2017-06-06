@@ -105,10 +105,15 @@ h6 {
     letter-spacing: 0.5px;
   }
 
+  /**
+   * 1. Slightly lighter color to make the type seem lighter than headline
+   *    without resorting to using the light font (to save a request)
+   */
   .hero__intro {
     font-size: 1.25em;
     margin-top: 2em;
     margin-bottom: 2em;
+    color: #444444; /* 1 */
   }
 
   .hero__image {
@@ -130,11 +135,16 @@ h6 {
 
 
   @media(min-width:992px) {
+    /**
+     * 1. This is all to overlap the following section.
+     *    Please make sure the following section has corresponding padding on top.
+     */
     .hero__image {
-      position: relative;
-      top: 96px;
-      top: 6rem;
-      z-index: 1;
+      position: relative; /* 1 */
+      top: 96px; /* 1 */
+      top: 6rem; /* 1 */
+      margin-bottom: -4em; /* 1 */
+      z-index: 1; /* 1 */
     }
   }
 
