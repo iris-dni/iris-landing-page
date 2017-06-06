@@ -40,6 +40,61 @@ h6 {
 }
 
 
+
+/*********************************/
+.testimonial {
+  background-color: #1000c5;
+  color: #ffffff;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+  /**
+   * 1. Override of standard style
+   * 2. For readability
+   */
+  .testimonial__quote {
+    border: 0; /* 1 */
+    max-width: 40em; /* 2 */
+    font-size: 1.2em;
+    flex-grow: 0;
+  }
+
+  .testimonial__quote::before {
+    display: block;
+    width: 70px;
+    height: 4px;
+    background-color: #2fcd0c;
+    margin-top: 0.2em;
+    margin-bottom: 1em;
+  }
+
+  .testimonial__cite {
+    display: block;
+    padding-top: 1em;
+    font-size: 0.8em;
+  }
+
+
+  @media( min-width: 700px ) {
+    .testimonial__content {
+      display: inline-flex;
+      align-items: center;
+      align-content: flex-start;
+      justify-content: flex-start;
+    }
+
+    /**
+     * 1. To make quote overlap image by a magic number,
+     *    carefully selected by a designer with a good eye for such things
+     */
+    .testimonial__quote {
+      position: relative;
+      left: -70px; /* 1 */
+    }
+  }
+
 .about-text {
   padding: 60px;
   margin-top: -100px;

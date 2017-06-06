@@ -5,6 +5,16 @@
   <body>
     {% include header.html %}
     {% include about.html %}
+
+    {% include testimonial.html
+       quote="Even in our wildest dreams we couldn’t have expected such a great start: more than 80 petitions created, supported by a total of almost 5000 signatures, in just the first month."
+       source="Peter Neumann, Chief Digital Officer AZ Medien, speaking in January 2017"
+    %}
+    {% include testimonial.html
+       context="The first cause on Petitio.ch has already proved succesful: a local citizen was able to rally up support for evening bus service to his home town. The city council heard the plea and decided to introduce the service immediately."
+       quote="It's an honour for me. There's nothing else I can say at this time."
+       source="Thomas Schörg, 33, Boniswil in Kanton Aargau"
+    %}
     {% include page_content.html %}
     {% include contact.html %}
     {% include footer.html %}
