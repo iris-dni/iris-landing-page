@@ -1,0 +1,33 @@
+<section id="hero">
+  <!-- Header -->
+  <div class="hero">
+
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-4 col-md-offset-1">
+          <div>
+            <h1 class="hero__headline">Engage with your local communities and take part in their stories</h1>
+            <p class="hero__intro">
+              There are many topics that local communities regard as particularly pressing, but journalists usually only discover them by accident. This is your chance to be part of local change, right when it’s taking place.
+            </p>
+            <ul class="list-inline intro-social-buttons">
+              {% for social in site.social %}
+              <li>
+                <a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.logoKey }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
+              </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="img/hero/hero-img.png" alt="" class="hero__image">
+        </div>
+      </div>
+
+    </div>
+    <!-- /.container -->
+
+  </div>
+  <!-- /.intro-header -->
+</section>
