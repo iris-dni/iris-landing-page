@@ -23,14 +23,28 @@ h6 {
     font-weight: 700;
 }
 
-.navbar-default .navbar-brand {
-  color: #1100c4;
-  font-size: 26px;
-  font-weight: bold;
+.navbar-default {
+  background-color: #ffffff;
+  border: 0;
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav >.active > a:hover, .navbar-default .navbar-nav >.active > a:focus {
-  border-bottom: 8px solid #2fcd0c;
+  .navbar-default .navbar-brand {
+    color: #1100c4;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav >.active > a:focus {
+    background-color: transparent;
+    color: #2fcd0c;
+  }
+
+@media (min-width: 768px) {
+  .navbar-nav > li > a {
+    padding-bottom: 5px;
+  }
 }
 
 .social-button-icon {
@@ -64,6 +78,24 @@ h6 {
   padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
 }
+
+  .hero__brand {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1.5em;
+  }
+
+  .hero__logo {
+    flex-shrink: 0;
+    margin-right: 0.5em;
+  }
+
+  .hero__title {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #999999;
+    margin: 0;
+  }
 
   .hero__headline {
     margin: 0 0 0.5em 0;
