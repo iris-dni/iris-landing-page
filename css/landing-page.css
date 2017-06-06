@@ -23,6 +23,26 @@ h6 {
   font-weight: 700;
 }
 
+
+
+/***********************
+ * CONTAINER OVERWRITES
+ */
+
+/**
+ * 1. We find the standard width on largest breakpoints too wide
+ */
+@media (min-width: 1200px) {
+  .container {
+    width: 1024px; /* 1 */
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 850px; /* 1 */
+  }
+}
+
 /***********************
  * NAVBAR OVERWRITES
  */
@@ -50,8 +70,6 @@ h6 {
       padding-bottom: 5px;
     }
   }
-
-
 
 
 /**********************************
