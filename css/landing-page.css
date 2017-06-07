@@ -40,6 +40,42 @@ h6 {
 }
 
 
+/*********************************/
+/**
+ * 1. Take up all available space, assuming container handles sizing
+ * 2. Ensure 1/1 fixed ratio container
+ * 3. Make round, proper classic avatar style
+ */
+.avatar {
+  width: 100%; /* 1 */
+  height: 0; /* 2 */
+  padding-bottom: 100%; /* 2 */
+  position: relative; /* 2 */  
+  border-radius: 50%; /* 3 */
+  overflow: hidden; /* 2 *//* 3 */
+}
+
+.avatar::after,
+.avatar__image {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/**
+ * Overlay is there to ensure some visual consistency in avatar images,
+ * which otherwise may be very varied in style
+ */
+.avatar::after {
+  content: "";
+  opacity: 0.2;
+  background-color: #1000c5;
+}
 
 /*********************************/
 .testimonial {
@@ -49,6 +85,13 @@ h6 {
   padding-bottom: 100px;
 }
 
+  .testimonial__avatar {
+    text-align: center;
+    flex: 0 0 300px;
+    max-width: 300px;
+    padding: 20px;
+    margin: auto;
+  }
 
   /**
    * 1. Override of standard style

@@ -1,6 +1,9 @@
 <section class="testimonial">
   <div class="container">
     <div class="row testimonial__content">
+      <div class="testimonial__avatar">
+        {% include avatar.html %}
+      </div>
       <blockquote class="testimonial__quote">
         {{ include.context }}
         “{{ include.quote }}”
