@@ -9,15 +9,18 @@ $(function() {
     });
 });
 
-// Highlight the top nav as scrolling occurs
-$('body').scrollspy({
-    target: '.navbar-fixed-top'
-})
 
-// Closes the Responsive Menu on Menu Item Click
-$('.navbar-collapse ul li a').click(function() {
-    $('.navbar-toggle:visible').click();
+//jQuery to slim down the navbar on scroll
+var $navbar = $('.navbar-fixed-top');
+var navbar_slim_class = 'top-nav-slim';
+$(window).scroll(function() {
+    if ($navbar.offset().top > 50) {
+        $navbar.addClass(navbar_slim_class);
+    } else {
+        $navbar.removeClass(navbar_slim_class);
+    }
 });
+
 
 $('div.modal').on('show.bs.modal', function() {
 	var modal = this;

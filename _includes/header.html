@@ -1,63 +1,18 @@
-<!-- Navigation -->
-<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+<div class="navbar-fixed-top">
   <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header page-scroll">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand page-scroll" href="#home">{{ site.title }}</a>
+    <div class="brand-line">
+      <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" class="brand-line__logo">
+        <g fill="none" fill-rule="evenodd">
+            <path d="M0 0h315v34H0z"/>
+            <path fill="#F1F1F1" fill-rule="nonzero" d="M17 34C7.611 34 0 26.389 0 17S7.611 0 17 0s17 7.611 17 17-7.611 17-17 17zm0-4c7.18 0 13-5.82 13-13S24.18 4 17 4 4 9.82 4 17s5.82 13 13 13z"/>
+            <path fill="#2FCD0C" fill-rule="nonzero" d="M17 34c9.389 0 17-7.611 17-17S26.389 0 17 0a2 2 0 1 0 0 4c7.18 0 13 5.82 13 13s-5.82 13-13 13a2 2 0 1 0 0 4z"/>
+            <g fill="#222">
+                <path d="M12.987 22.012l.649-3.123 8.013-8.014 2.475 2.475-8.014 8.014zM10 22.25h12.25v1H10z"/>
+            </g>
+        </g>
+      </svg>
+      <h1 class="brand-line__title">{{ page.title }}:
+      {{ page.subTitle }}</h1>
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-          <a class="page-scroll" href="#about">About</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#benefits">Benefits</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#howTo">How it works</a>
-        </li>
-        <li>
-          <a class="page-scroll" href="#contact">Contact</a>
-        </li>
-      </ul>
-    </div>
-    <!-- /.navbar-collapse -->
   </div>
-  <!-- /.container -->
-</nav>
-
-<section id="home">
-  <!-- Header -->
-  <div class="intro-header">
-
-    <div class="container">
-
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="intro-message">
-            <h1>{{ page.title }}</h1>
-            <h3>{{ page.subTitle }}</h3>
-            <ul class="list-inline intro-social-buttons">
-              {% for social in site.social %}
-              <li>
-                <a href="{{ social.url }}" class="btn btn-default btn-lg"><i class="fa fa-{{ social.logoKey }} fa-fw"></i> <span class="network-name">{{ social.title }}</span></a>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <!-- /.container -->
-
-  </div>
-  <!-- /.intro-header -->
-</section>
+</div>
