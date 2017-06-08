@@ -47,30 +47,16 @@ h6 {
  * NAVBAR OVERWRITES
  */
 
-.navbar-default {
+.navbar-fixed-top {
   background-color: #ffffff;
-  border: 0;
 }
 
-  .navbar-default .navbar-brand {
-    color: #1100c4;
-    font-size: 26px;
-    font-weight: bold;
-  }
 
-  .navbar-default .navbar-nav > .active > a,
-  .navbar-default .navbar-nav > .active > a:hover,
-  .navbar-default .navbar-nav >.active > a:focus {
-    background-color: transparent;
-    color: #2fcd0c;
-  }
+/**********************************
+ * CUSTOM MODULES – NOT BOOTSTRAP
+ *********************************/
 
-  @media (min-width: 768px) {
-    .navbar-nav > li > a {
-      padding-bottom: 5px;
-    }
-  }
-
+/*********************************/
 .social-button-icon {
   display: inline-block;
   width: 1em;
@@ -84,10 +70,6 @@ h6 {
     height: 100%;
   }
 
-/**********************************
- * CUSTOM MODULES – NOT BOOTSTRAP
- *********************************/
-
 /*********************************/
 .content-container {
   display: flex;
@@ -95,30 +77,33 @@ h6 {
   align-items: center;
 }
 
+
 /*********************************/
-.hero {
-  color: #222222;
-  padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
-  padding-bottom: 50px;
+.brand-line {
+  display: flex;
+  align-items: center;
+  margin-top: 0.7em;
+  margin-bottom: 0.6em;
 }
 
-  .hero__brand {
-    display: flex;
-    align-items: center;
-    margin-bottom: 1.5em;
-  }
-
-  .hero__logo {
+  .brand-line__logo {
     flex-shrink: 0;
     margin-right: 0.5em;
   }
 
-  .hero__title {
+  .brand-line__title {
     font-size: 1rem;
     font-weight: normal;
     color: #999999;
     margin: 0;
   }
+
+/*********************************/
+.hero {
+  color: #222222;
+  padding-top: 60px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-bottom: 50px;
+}
 
   .hero__headline {
     margin: 0 0 0.5em 0;
