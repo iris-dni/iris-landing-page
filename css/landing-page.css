@@ -49,6 +49,17 @@ h6 {
 
 .navbar-fixed-top {
   background-color: #ffffff;
+  padding-top: 3em;
+  padding-bottom: 1em;
+
+  transition: padding 0.2s ease-out;
+}
+
+.top-nav-slim {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+
+  transition: padding 0.1s ease-in;
 }
 
 
@@ -68,8 +79,6 @@ h6 {
 .brand-line {
   display: flex;
   align-items: center;
-  margin-top: 0.7em;
-  margin-bottom: 0.6em;
 }
 
   .brand-line__logo {
@@ -87,7 +96,7 @@ h6 {
 /*********************************/
 .hero {
   color: #222222;
-  padding-top: 60px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+  padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
   padding-bottom: 50px;
 }
 
