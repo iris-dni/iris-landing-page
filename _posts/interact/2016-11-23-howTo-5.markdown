@@ -6,4 +6,4 @@ title: Start your own platform
 description: |
 ---
 If you want to start your own platform based on IRIS check out the [documentation](https://github.com/iris-dni/iris-service).
-There is also an implementation from AZ-Medien called [Petitio](https://www.petitio.ch/).
+There is also an implementation from CH Media called [Petitio](https://www.petitio.ch/).
